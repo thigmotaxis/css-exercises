@@ -1,0 +1,6 @@
+/* styles for index.html */
+
+.odd {background-color: rgba(245, 122, 169, 0.5); font-family: Verdana, "Dejavu Sans", sans-serif}
+.big-buddy {font-size: 24px}
+#the-blue-one {color: rgba(12, 43, 122, 1);font-size: 36px}
+#the-green-one {background-color: rgba(88, 196, 112, .7); font-size: 24px; font-weight: 700;}
