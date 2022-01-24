@@ -1,0 +1,4 @@
+/* styles for index.html*/
+.yb, .bb {font-size: 28px; font-family: Helvetica, "Times New Roman", sans-serif;}
+.bb {background-color: rgba(0, 0, 0, 1); color: rgba(255, 255, 255, 1);}
+.yb {background-color: rgba(247, 190, 2, .9);}
