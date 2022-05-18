@@ -10,8 +10,17 @@ body, html {
   box-sizing: border-box;
   display: grid;
   grid-template-rows: 12% 12% 12% 12% 12% 12% 12% 12%;
-  grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
-  gap: .8%;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-template-areas: "header header header header"
+  "sidebar nav nav nav"
+  "sidebar article article article"
+  "sidebar article article article"
+  "sidebar article article article"
+  "sidebar article article article"
+  "sidebar article article article"
+  "sidebar article article article"
+  "sidebar article article article"
+  "footer footer footer footer";
 }
 
 .container div {
@@ -25,24 +34,22 @@ body, html {
 
 .header {
   background-color: #FFDE22;
-  grid-column: 1 / -1;
+  grid-area: header;
 }
 
 .sidebar {
   background-color: #FF7755;
-  grid-row: 2 / -2;
+  grid-area: sidebar;
 }
 
 .nav {
   background-color: #00DDFF;
-  grid-row: 2;
-  grid-column: 2 / -1;
+  grid-area: nav;
 }
 
 .article {
   background-color: #bccbde;
-  grid-row: 3 / 8;
-  grid-column: 2 / -1;
+  grid-area: article;
 }
 
 .article p {
@@ -54,6 +61,5 @@ body, html {
 
 .footer {
   background-color: #393f4d;
-  grid-row: -2;
-  grid-column: 1 / -1;
+  grid-area: footer;
 }
